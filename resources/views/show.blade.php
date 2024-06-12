@@ -4,7 +4,7 @@
     <div class="movie-info border-b border-gray-800">
         <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
             <div class="flex-none">
-                <img src="img/sonic.jpg" alt="" class="w-64 lg:w-96 encrypted-media">
+                <img src="{{asset('/img/sonic.jpg')}}" alt="" class="w-64 lg:w-96 encrypted-media">
                 <div class="ml-24">
                     <h2 class="text-4xl mt-4 md:mt-0 font-semibold">title</h2>
                     <div class="mt-2">
